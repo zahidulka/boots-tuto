@@ -1,0 +1,583 @@
+/*	  Heading Typograpphy
+===#########################=======================*/
+h1.h6
+h2.h5
+h3.h4
+h4.h3
+h5.h2
+h6.h1
+/* h1 DISPLAY_1-6 CLASSES */
+h1.display-1
+h1.display-2
+h1.display-3
+h1.display-4
+h1.display-6
+
+/* PARAGRAPHS <p>*/
+   
+p.lead
+	
+/* FONT STYLE CLASSES <p>*/
+p.font-weight-bold
+p.font-weight-normal
+p.font-weight-italic
+
+/* TEXT TRANSFORMS*/
+.text-lowercase
+.text-uppercase
+.text-capitalize
+
+/* Unorder List*/
+.list-unstyled
+.list-inline
+
+
+
+/*	 Text Aling Typograpphy <p>
+===#############################============================*/
+/* JUSTIFy */
+
+p.text-justify
+p.text-left
+p.text-center
+p.text-right
+
+/* RESPONSIVE ALIGN Right */
+p.text-sm-right
+p.text-md-right
+p.text-lg-right
+p.text-xl-right
+
+/* RESPONSIVE ALIGN Left */
+p.text-sm-left
+p.text-md-left
+p.text-lg-left
+p.text-xl-left
+
+/* RESPONSIVE ALIGN Center */
+p.text-sm-center
+p.text-md-center
+p.text-lg-center
+p.text-xl-center
+
+/* h1 - h6 TURN BLOCK TO INLINE */
+h1.d-inline .bg-success
+h1.d-inline .bg-success
+span.d-block .bg-success
+
+/*INLINE BLOCK*/
+div.d-inline-block .bg-success
+	<h1>
+	<p>
+	<img>
+	<a href>
+div
+div.d-inline-block .bg-primary
+	<h1>
+	<p>
+	<img>
+	<a href>
+div
+
+/*	Float Typograpphy
+==######################===================================================*/
+/* FLOATS */
+div.float-left
+div.float-right
+div.float-none
+
+
+/* RESPONSIVE FLOATS */
+div.float-sm-left
+div.float-md-left
+div.float-lg-left
+div.float-xl-left
+
+
+div.float-sm-right
+div.float-md-right
+div.float-lg-right
+div.float-xl-right
+
+
+div.float-sm-none
+div.float-md-none
+div.float-lg-none
+div.float-xl-none
+
+
+/* CLEARFIX */
+div.bg-success.clearfix
+	button.btn .btn-secondary .float-left
+	button.btn .btn-secondary .float-right
+div
+
+/* FIXED TOP and Bottom */
+h3.sticky-top
+h3.fixed-bottom
+
+/*	Spacing Typograpphy
+==######################================================*/
+/* MT MARGIN TOP */
+h1.mt-0
+h2.mt-1
+h3.mt-2
+h4.mt-3
+h5.mt-4
+h6.mt-5
+
+/* MB MARGIN BOTTOM */
+h1.mb-0
+h2.mb-1
+h3.mb-2
+h4.mb-3
+h5.mb-4
+h6.mb-5
+
+/* ML margin-left & MR margin-right */
+p 
+span.bg-success.mr-5 
+span.bg-success.ml-5
+p
+
+/* MX MARGIN LEFT RIGHT */
+<div>
+<p>
+span.mx-0
+span.mx-
+span.mx-5
+<p>
+<div>
+
+/* MY MARGIN TOP BOTTOM */
+<div>
+<p>
+span.my-0
+span.my-
+span.my-5
+<p>
+<div>
+/* ALL SIDE MARGIN  */
+<div>
+<p>
+span.m-0
+span.m-
+span.m-5
+<p>
+<div>
+
+/*##### PADDING ######*/
+
+/* MT MARGIN TOP */
+h1.pt-0
+h2.pt-1
+h3.pt-2
+h4.pt-3
+h5.pt-4
+h6.pt-5
+
+/* MB MARGIN BOTTOM */
+h1.pb-0
+h2.pb-1
+h3.pb-2
+h4.pb-3
+h5.pb-4
+h6.pb-5
+
+/* ML margin-left & MR margin-right */
+p 
+span.bg-success.pr-5 
+span.bg-success.pl-5
+p
+
+/* MX MARGIN LEFT RIGHT */
+<div>
+<p>
+span.px-0
+span.px-
+span.px-5
+<p>
+<div>
+
+/* MY MARGIN TOP BOTTOM */
+<div>
+<p>
+span.py-0
+span.py-
+span.py-5
+<p>
+<div>
+/* ALL SIDE MARGIN  */
+<div>
+<p>
+span.p-0
+span.p-
+span.p-5
+<p>
+<div>
+
+/*	BOX sizing Typograpphy
+==###########################======================*/
+/* WIDTH CLASSES */
+div.w-25 25%
+div.w-50 50%
+div.w-75 75%
+div.w-100 100%
+
+/* HEIGHT CLASSES */
+div.h-25 25%
+div.h-50 50%
+div.h-75 75%
+div.h-100 100%
+
+
+/*	Grid Typograpphy
+==###########################======================*/
+/* AUTO LAYOUT COLUMNS */
+div.row
+div.col-12
+div.col-11
+div.col-10
+div.col-9
+div.col-8
+div.col-7
+div.col-6
+div.col-5
+div.col-4
+div.col-3
+div.col-2
+div.col-1
+
+/* RESPONSIVE CLASSES */
+
+div.col-12 .col-sm-3 .col-md-4 .col-lg-4 .col-xl-6
+div.col-12 .col-sm-3 .col-md-4 .col-lg-6 .col-xl-3
+div.col-12 .col-sm-3 .col-md-4 .col-lg-6 .col-xl-3
+
+/* Grid Alignment vertically */
+div.row .align-items-start
+div.row .align-items-center
+div.row .align-items-end
+
+/* VERTICAL ALIGN INDIVIDUAL COLS */
+div.container
+div.row
+div.col .align-self-start
+div.col .align-self-center
+div.col .align-self-end
+
+
+/* HORIZONTAL ALIGNED COLS */
+
+div.container
+
+  div.row .justify-content-start
+    div.col-4
+    div.col-4
+
+  div.row .justify-content-center
+    div.col-4
+    div.col-4
+
+  div.row .justify-content-end
+    div.col-4
+    div.col-4
+
+  div.row .justify-content-around
+	div.col-4
+	div.col-4
+
+  div.row .justify-content-between
+	div.col-4
+	div.col-4
+  div
+div
+
+/*	Flex Box Typograpphy
+==###########################======================*/
+/* FLEX ROW & FLEX ITEMS */
+div.d-flex .row-h1 .flex-row
+div.item-h1 .p-4">Flex Item</div>
+div.item-h1 .p-4">Flex Item</div>
+div.item-h1 .p-4">Flex Item</div>
+div
+
+/* FLEX ROW REVERSE */
+div.d-flex .row-h1 .flex-row-reverse
+div.item-h1 .p-4">Flex Item</div>
+div.item-h1 .p-4">Flex Item</div>
+div.item-h1 .p-4">Flex Item</div>
+div
+
+/* JUSTIFY CONTENT */
+div.d-flex .row-h1 .flex-row .justify-content-start
+div.d-flex .row-h1 .flex-row .justify-content-center
+div.d-flex .row-h1 .flex-row .justify-content-end
+div.d-flex .row-h1 .flex-row .justify-content-around
+div.d-flex .row-h1 .flex-row .justify-content-end
+div.d-flex .row-h1 .flex-row .justify-content-between
+
+div.d-flex .row-h1 .flex-row .justify-content-start
+div.item-h1 .p-4">Flex Item</div>
+div.item-h1 p-4">Flex Item</div>
+div.item-h1 p-4">Flex Item</div>
+div
+
+
+/* FLEX CONTAINER / FLEX COLUMN */
+div.d-flex row-h1 .flex-column">
+div.d-flex row-h1 .flex-column-reverse">
+
+div.d-flex .row-h1 .flex-column .justify-content-start">
+div.d-flex .row-h1 .flex-column .justify-content-center">
+div.d-flex .row-h1 .flex-column .justify-content-end">
+div.d-flex .row-h1 .flex-column .justify-content-around">
+div.d-flex .row-h1 .flex-column .justify-content-between">
+
+div.d-flex row-h1 .flex-column">
+div.item-h1 p-4">Flex Item</div>
+div.item-h1 p-4">Flex Item</div>
+div.item-h1 p-4">Flex Item</div>
+div
+
+
+/* VERTICAL ALIGN ITEMS */
+div.d-flex row-h1 .flex-row .align-items-start">
+div.d-flex .row-h1 .flex-row .align-items-center">
+div.d-flex .row-h1 .flex-row .align-items-end">
+div.d-flex .row-h1 .flex-row .align-items-baseling">
+div.d-flex .row-h1 .flex-row .align-items-stretch">
+
+div.d-flex .row-h1 .flex-row .align-items-start">
+div.item-h1 p-4">Flex Item</div>
+div.item-h1 p-4">Flex Item</div>
+div.item-h1 p-4">Flex Item</div>
+div
+
+/* RESPONSIVE VERTICAL ALIGN */
+div.d-flex .row-h1 .flex-row align-items-center .align-items-sm-start .align-items-end ">
+div class="item-h1 p-4">Flex Item</div>
+div class="item-h1 p-4">Flex Item</div>
+div class="item-h1 p-4">Flex Item</div>
+div
+
+/* ALIGN SELF */
+div.d-flex row-h1 .flex-row
+div.item-h1 .p-4 .align-self-start">Flex Item</div>
+div.item-h1 .p-4 .align-self-center">Flex Item</div>
+div.item-h1 .p-4 .align-self-end">Flex Item</div>
+div.item-h1 .p-4 .align-self-baseline">Flex Item</div>
+div.item-h1 .p-4 .align-self-stretch">Flex Item</div>
+div
+   
+/* RESPONSIVE ALIGN SELF */
+div.d-flex .row-h1 .flex-row">
+div.p-4 .item-h1 .align-self-center .align-self-sm-start">Flex Item</div>
+div.p-4 .item-h1 .align-self-center .align-self-sm-start">Flex Item</div>
+div.p-4 .item-h1 .align-self-center .align-self-sm-start">Flex Item</div>
+div.p-4 .item-h1 .align-self-end .align-self-sm-start">Flex Item</div>
+div.p-4 .item-h1 .align-self-end .align-self-sm-start">Flex Item</div>
+div
+
+
+
+/*=====############################=================
+Auto Margin Wrapping Typograpphy
+=======############################================*/
+
+/* MR-AUTO */
+div.d-flex .row-hl">
+div.p-2 .mr-auto item-hl">Flex item-1</div>
+div.p-2 .item-hl">Flex item-2</div>
+div.p-2 .item-hl">Flex item-3</div>
+div
+
+/* ML-AUTO */
+div.d-flex .row-hl">
+div.p-2 .item-hl">Flex item</div>
+div.p-2 .item-hl">Flex item</div>
+div.p-2 .ml-auto .item-hl">Flex item</div>
+div
+
+/* MB-AUTO */
+div.d-flex .flex-column .row-hl">
+div.p-2 .mb-auto .item-hl" >Flex item</div>
+div.p-2 .item-hl" >Flex item</div>
+div.p-2 .item-hl" >Flex item</div>
+div
+
+/* MT-AUTO */
+div class="d-flex flex-column row-hl">
+div.p-2 .item-hl">Flex item</div>
+div.p-2 .item-hl">Flex item</div>
+div.p-2 .mt-auto .item-hl">Flex item</div>
+div
+
+/*	 List Grup Typography
+==###########################=====================*/
+/* LIST GROUP */
+ul.list-grup
+li.list-group-item">My List Item One</li>
+li.list-group-item">My List Item Two</li>
+li.list-group-item">My List Item Three</li>
+li.list-group-item">My List Item Four</li>
+li.list-group-item">My List Item Five</li>
+ul
+
+/* LIST GROUP WITH LINKS */
+ul.list-group"
+a.list-group-item .list-group-item-action .active" href="#">My List Item One</a>
+a.list-group-item .list-group-item-action" href="#">My List Item Two</a>
+a.list-group-item .list-group-item-action" href="#">My List Item Three</a>
+a.list-group-item .list-group-item-action" href="#">My List Item Four</a>
+a.list-group-item .list-group-item-action" href="#">My List Item Five</a>
+ul
+
+
+/* CONTEXTUAL CLASSES */
+ul.list-group
+li.list-group-item .list-group-item-action .list-group-item-primary"></li>
+li.list-group-item .list-group-item-action .list-group-item-success"></li>
+li.list-group-item .list-group-item-action .list-group-item-warning"></li>
+li.list-group-item .list-group-item-action .list-group-item-dark"></li>
+li.list-group-item .list-group-item-action .list-group-item-info"></li>
+ul
+
+/* LIST GROUP WITH BADGES */
+ul.list-group
+li.list-group-item">My List Item One</li>
+li.list-group-item">My List Item Two <span.badge .badge-primary .align-top">23</span></li>
+li.list-group-item">My List Item Three <span.badge .badge-primary ">43</span></li>
+li.list-group-item">My List Item Four</li>
+li.list-group-item">My List Item Five</li>
+ul
+
+/* BREADCRUMB */
+ol.breadcrumb">
+li.breadcrumb-item-active">Home</li>
+ol
+ol.breadcrumb">
+li.breadcrumb-item"><a href="#">Home</a></li>
+li.breadcrumb-item active">Users</li>
+ol
+ol.breadcrumb">
+li.breadcrumb-item"><a href="#">Home</a></li>
+li.breadcrumb-item active"><a href="#">Users</a></li>
+li.breadcrumb-item">Moshiur</li>
+ol
+
+
+/*	 Media Object Typography
+==############################=====================*/
+
+/* MEDIA OBJECT */
+div.media
+  img.d-flex .mr-3" src="img/Hydrangeas.jpg">
+   div.media-body .text-dark .p-3">
+   h2
+   p
+div
+div
+
+/* NESTING MEDIA OBJECTS */
+div.media
+  img.d-flex .mr-3" src="img/Koala.jpg">
+  div.media-body">
+	  h2
+	  p
+
+	  div.media .mt-3
+		a href="#">
+		  img.d-flex mr-3" src="img/Koala.jpg">
+		a
+	  div.media-body
+		h5
+		p
+	  div
+  div
+ div
+div
+
+/* TOP ALIGNED (DEFAULT) */
+div.media
+  img.d-flex .mr-3 .align-self-start" src="img/Koala.jpg">
+   div.media-body
+	h2
+	p
+	p
+   div
+div
+
+/* CENTER ALIGNED */
+div.media
+  img.d-flex .mr-3 .align-self-center" src="img/Tulips.jpg">
+  div
+	h5
+	p
+	p
+  div
+div
+
+/* BOTTOM ALIGNED */
+div.media
+  img.d-flex .mr-3 .align-self-end" src="img/Hydrangeas.jpg">
+  div
+  h5
+  p
+  p
+div
+div
+
+
+/* MEDIA LIST */
+ul.list-unstyled
+ li.media .mt-3
+   img.d-flex .mr-3" src="img/image4.jpg">
+   div.media-body
+   h5
+   p
+   div
+ li
+
+ li class="media mt-3">
+  img.d-flex .mr-3" src="img/image4.jpg">
+  div.media-body
+  h5
+  p
+  div
+ li
+
+ li.media .mt-3
+  img.d-flex .mr-3" src="img/image4.jpg">
+  div.media-body
+  h5
+  p
+  div
+ li
+ul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

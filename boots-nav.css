@@ -1,0 +1,81 @@
+/*=====##########################======================
+		NAVBAR Typograpphy
+=======##########################====================*/
+/*SIMPLE NAVBAR */
+nav.navbar .bg-dark .navbar-dark .navbar-expand-md">
+  div.container
+   a.navbar-brand" href="#">Navbar</a>
+	 ul.navbar-nav">
+	  li.nav-item">
+		a.nav-link" href="#">Home</a>
+	  li
+	  li.nav-item">
+	    a.nav-link" href="#">About</a>
+	  li
+	  li.nav-item">
+		a.nav-link" href="#">Services</a>
+	  li
+	  li.nav-item">
+		a.nav-link" href="#">Contact</a>
+	  li
+	 ul
+  div
+nav
+
+/* NAVBAR WITH RESPONSIVE TOGGLE */
+nav.navbar .navbar-light .bg-light .navbar-expand-md">
+  div.container
+	a.navbar-brand" href="#">Navbar</a>
+	  
+	  button.navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"><span.navbar-toggle-icon"></span>
+	  button
+	  
+	  div.collapse .navbar-collapse #navbarNav>
+	   ul .navbar-nav .ml-auto">
+		  li.nav-item
+			a.nav-link" href="#"
+		  li
+		  li.nav-item
+		    a.nav-link" href="#"
+		  li
+		  li.nav-item
+		    a.nav-link" href="#"
+		  li
+		  li.nav-item
+		    a.nav-link" href="#"
+		  li
+	   ul
+	  div
+  div
+nav
+
+
+/*NAVBAR WITH DROPDOWN */
+nav.navbar .nav-light .bg-light .navbar-expand-md
+  div.container
+	a.navbar-brand" href="#">Navbar</a>
+	  ul.navbar-nav
+		li.nav-item
+		  a.nav-link .active" href="#">Home</a>
+		li	
+		li.nav-item
+		  a.nav-link" href="#">About</a>
+		li
+		li.nav-item .dropdown
+		  a.nav-link .dropdown-toggle" data-toggle="dropdown" href="">Dropdown</a>
+				  
+			div.dropdown-menu .bg-warning
+			  a href="#" .dropdown-item">Link 1</a>
+			  a href="#" .dropdown-item">Link 2</a>
+			  a href="#" .dropdown-item">Link 3</a>
+			div
+		li	
+		li.nav-item">
+		  a.nav-link" href="#">Services</a>
+		li
+		li.nav-item">
+		  a.nav-link" href="#">Contact</a>
+		li
+	  ul
+  div
+nav

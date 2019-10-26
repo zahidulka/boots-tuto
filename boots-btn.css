@@ -1,0 +1,103 @@
+/*=====##########################======================
+		BUTTON Typograpphy
+=======##########################====================*/
+/* Ganarel BUTTONS */
+button.btn .btn-primary type="button">
+button.btn .btn-secondary type="button">
+button.btn .btn-success type="button">
+button.btn .btn-info" type="button">
+button.btn .btn-warning" type="button">
+button.btn .btn-denger" type="button">
+button.btn .btn-warning.btn-link" type="button">
+
+
+/* BUTTON TAGS */
+a.btn btn-primary" href="#" role="button">Link</a>
+button.btn .btn-success" type="submit">
+input.btn .btn-info" type="button" value="Input">
+input.btn .btn-warning" type="submit" value="Submit">
+input.btn .btn-dark" type="reset" value="Reset">
+
+
+/* OUTLINE BUTTONS */
+button.btn .btn-outline-primary" type="button">
+button.btn .btn-outline-secondary" type="button">
+button.btn .btn-outline-success" type="button">
+button.btn .btn-outline-info" type="button">
+button.btn .btn-outline-warning" type="button">
+button.btn .btn-outline-danger" type="button">
+
+/* BUTTON SIZES */
+button .btn .btn-primary .btn-lg" type="button"><i class="fa fa-envelope">/i></button>
+button .btn .btn-primary .btn-sm" type="button">
+button .btn .btn-primary .btn-block .w-100" type="button">Block level button</button>
+
+/* STATES */
+button.btn .btn-danger" type="button">
+button.btn .btn-danger active" type="button">
+button.btn .btn-danger disabled" type="button">
+
+/* Toggle State */
+button.btn .btn-primary .mt-2 .btn-toggle" data-toggle="button" type="button">
+	Toggle State
+</button>
+
+
+
+/* BUTTON DROPDOWNS */
+div.dropdown
+button.btn .btn-warning .dropdown-toggle" data-toggle="dropdown" type="button" data-toggle="dropdown">
+My Dropdown
+button
+
+div.dropdown-menu
+	a.dropdown-item" href="#">Link One</a>
+	a.dropdown-item" href="#">Link Two</a>
+	a.dropdown-item" href="#">Link Three</a>
+div
+div
+
+/* SPLIT DROPDOWNS */
+div.btn-grup
+ button.btn .btn-primary" type="button">My Button</button>
+	button.btn .btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" type="button">
+	span.sr-only">Toggle Dropdown</span
+	button>
+	
+div.dropdown-menu
+a.dropdown-item" href="#">Link One</a>
+a.dropdown-item" href="#">Link Two</a>
+a.dropdown-item" href="#">Link Three</a>
+
+div.dropdown-divider"></div>
+a.dropdown-item" href="#">Link Four</a>
+div
+div
+
+
+/* BUTTON GROUPS */
+div.btn-group
+	button.btn.btn-success" type="button">Left</button>
+	button.btn.btn-warning" type="button">Middle</button>
+	button.btn.btn-dark" type="button">Right</button>
+div
+
+
+/* PAGINATION GROUPS */
+div.btn-toolbar" role="toolbar">
+	div.btn-group mr-2">
+		button.btn .btn-primary" type="button">1</button>
+		button.btn .btn-primary" type="button">2</button>
+		button.btn .btn-primary" type="button">3</button>
+		button.btn .btn-primary" type="button">4</button>
+	div
+	div.btn-group mr-2">
+		button.btn .btn-primary" type="button">5</button>
+		button.btn .btn-primary" type="button">6</button>
+		button.btn .btn-primary" type="button">7</button>
+	div
+	div class="btn-group" >
+		button.btn .btn-primary" type="button">8</button>
+	div
+div
+

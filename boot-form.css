@@ -1,0 +1,175 @@
+/*===###################################===
+		Form Typography
+=====###################################===*/
+
+/* FORM */
+form
+div.form-group
+	<label for="name">Name</label>
+	<input .form-control .form-control-sm" type="text" id="name" placeholder="Enter name">
+div
+	
+div.form-group
+	<label  for="email">Email address</label>
+	<input.form-control .form-control-lg" type="email" id="email" placeholder="Enter email">
+	<small .form-text .text-muted">Your email will not be shared with anyone</small>
+div
+	
+<div.form-group
+	<label for="password">Password</label>
+	<input.form-control" type="password" id="password" placeholder="Password" readonly>
+div
+	
+div.form-group
+	<label for="gender">Gender</label>
+	<select class="form-control" id="gender">
+	  <option>Male</option>
+	  <option>Female</option>
+	</select>
+div
+	
+div.form-group
+	<label for="message">Message</label>
+	<textarea.form-control"#message" rows="3"></textarea>
+div
+	
+div.form-group
+	<label for="file">File input</label>
+	<input.form-control-file" type="file" id="file">
+	<small.form-text .text-muted" #fileHelp>Max 3mb size</small>
+div
+
+fieldset.form-group
+	<legend>What are you using this service for?</legend>
+	div.form-check
+	labe.form-check-label
+		<input.form-check-input" type="radio" value="option1" checked>
+		Personal
+	label
+	/div
+	
+	div.form-check
+	label.form-check-label
+	  input.form-check-input" type="radio" value="option2">
+		Commercial Use
+	label
+	/div
+	div
+	label.form-check-label
+		<input.form-check-input" type="radio" value="option3" disabled>
+	   Testing
+	label
+	/div
+</fieldset>
+	
+div.form-check
+  label.form-check-label
+	input.form-check-input" type="checkbox">
+		Sign up for newsletter
+  label
+div
+	<button.btn .btn-primary .mt-3" type="submit">Submit</button>
+form
+
+/* INLINE FORM */
+form.form-inline
+	input.form-control .mr-2" type="text" id="username" placeholder="Enter username">
+	input.form-control .mr-2" type="text" id="password" placeholder="Password">
+	div.form-check .mr-2
+	label.form-check-label
+	  input.form-check-input .mr-2" type="checkbox"> Remember me
+	label
+	</div>
+
+	button.btn .btn-warning .mr-3" type="submit">Submit</button>
+form
+
+/* VALIDATION */
+div.form-group
+<label for="username">Username</label>
+<input.form-control .is-valid" type="text" id="username">
+<div.valid-feedback">Username available</div>
+<small>Must be at least 8 characters</small>
+div
+
+div.form-group
+label for="password">Password</label>
+<input.form-control .is-invalid" type="text" id="password">
+<div.invalid-feedback">That password is not safe</div>
+<small>Please use a strong password</small>
+</div>
+
+
+/*	 input Grup Addons Typography
+==###########################=====================*/
+
+div.input-group
+  div.input-group-prepend
+    span.input-group-text>[@]<span>
+  div
+
+  input.form-control" type="text" placeholder="Username">
+div
+
+div.input-group
+   input.form-control" type="text" placeholder="Email address">
+	 div.input-group-append
+	  span.input-group-text">[@]something.com</span>
+	 div
+div	
+	
+ label for="profile-url">Choose profile URL</label>
+ div.input-group
+  div.input-group-prepend
+	span.input-group-text">https://something.com/member/</span>
+  div
+	input.form-control" type="text" id="profile-url">
+ div					
+        
+div.input-group
+div.input-group-prepend">
+  <span.input-group-text">$</span>
+div
+input.form-control" type="text">
+div.input-group-append">
+  <span.input-group-text">.00</span>
+div
+div		
+
+div.input-group .input-group-sm">
+div.input-group-prepend">
+  <span.input-group-text" >[@]</span>
+div
+  <input.form-control" type="text" placeholder="Username">
+div
+
+div.input-group
+  div.input-group-prepend">
+  span.input-group-text">
+	 input.form-control" type="checkbox">
+  span
+div
+<input class="form-control" type="text">
+div
+
+
+div.input-group">
+	<div.input-group-prepend">
+	  <span.input-group-text">
+		  <input.form-control" type="radio">
+	  </span>
+	</div>
+
+	<div.input-group-prepend">
+	  <span.input-group-text">$5.00</span>
+	</div>
+
+	<input.form-control" type="text">
+</div>
+
+div.input-group">
+	<input.form-control"  type="text" placeholder="Search for...">
+	<span.input-group-prepend">
+		<button.btn .btn-primary" type="button">Search</button>
+	</span>
+</div>
